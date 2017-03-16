@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/music"
+            android:id="@+id/nav_music_list"
+            android:title="曲库" />
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_search_white_18dp"
+            android:title="搜索" />
+        <item android:id="@+id/nav_setting"
+            android:icon="@drawable/setting"
+            android:title="@string/setting"/>
+        <item android:id="@+id/nav_about"
+            android:icon="@drawable/about"
+            android:title="关于"/>
+        <item android:id="@+id/nav_system_exit"
+            android:title="退出"
+            android:icon="@drawable/system_exit"/>
+    </group>
+
+
+
+
+
+
+</menu>

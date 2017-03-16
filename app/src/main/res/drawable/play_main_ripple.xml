@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#7e21272b">
+    <item>
+        <shape android:shape="oval">
+            <size android:width="100dp" android:height="100dp"/>
+            <solid android:color="@color/colorAccent" />
+        </shape>
+    </item>
+    <item
+        android:gravity="center"
+        android:width="40dp"
+        android:height="40dp"
+        android:drawable="@drawable/play_main_selector" />
+</ripple>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/transparent">
+    <item>
+        <shape android:shape="oval">
+            <size android:width="100dp" android:height="100dp"/>
+            <solid android:color="@color/transparent" />
+        </shape>
+    </item>
+    <item
+        android:gravity="center"
+        android:width="32dp"
+        android:height="36dp"
+        android:drawable="@drawable/ic_pause_white_24dp" />
+</ripple>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">音乐盒</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="setting">设置</string>
+    <string name="delete">从设备中删除</string>
+    <string name="music_name">没有正在播放的音乐</string>
+    <string name="artist">没有正在播放的音乐</string>
+    <string name="test">测试效果</string>
+    <string name="random_play">随机播放所有歌曲</string>
+    <string name="add_to_playlist">添加到播放列表</string>
+    <string name="play_this_next">下一首播放</string>
+    <string name="edit_music_info">编辑歌曲信息</string>
+    <string name="music_in_album_activity">查看专辑</string>
+    <string name="music_in_artist_activity">查看艺术家</string>
+    <string name="add_to_current_list">添加到当前播放列表</string>
+    <string name="rename">重命名</string>
+
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/random_play"
+        android:title="随机播放列表歌曲"
+        app:showAsAction= "never"/>
+    <item
+        android:id="@+id/time_exit"
+        android:title="定时关闭"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/search"
+        android:title="搜索"
+        android:icon="@drawable/search_ripple"
+        app:showAsAction="always"/>
+
+
+</menu>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#2d21272b">
+    <item>
+        <shape android:shape="oval">
+            <size android:width="50dp" android:height="50dp"/>
+            <solid android:color="@color/colorWhile" />
+        </shape>
+    </item>
+    <item
+        android:gravity="center"
+        android:left="1dp"
+        android:width="19dp"
+        android:height="19dp"
+        android:drawable="@drawable/next_tab" />
+</ripple>

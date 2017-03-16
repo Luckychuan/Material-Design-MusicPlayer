@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="25dp"
+    android:orientation="vertical">
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/new_play_list_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:met_errorColor="@color/colorAccent"
+        app:met_baseColor = "@color/colorPrimary"
+        app:met_primaryColor="@color/colorAccent"
+        android:singleLine="true"
+        app:met_maxCharacters="25"
+        android:hint="播放列表名称"
+        android:focusableInTouchMode="true"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/cancel_button"
+        android:layout_toLeftOf="@+id/confirm_button"
+        android:layout_below="@+id/new_play_list_edit"
+        android:layout_width="40dp"
+        android:layout_height="25dp"
+        android:text="取消"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/colorAccent"
+        android:background="?android:attr/selectableItemBackground" />
+    <Button
+        android:id="@+id/confirm_button"
+        android:layout_below="@+id/new_play_list_edit"
+        android:layout_alignParentRight="true"
+        android:layout_width="40dp"
+        android:layout_height="25dp"
+        android:text="确定"
+        android:textColor="@color/colorAccent"
+        android:background="?android:attr/selectableItemBackground" />
+
+</RelativeLayout>

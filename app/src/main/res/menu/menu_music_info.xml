@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/play_this_next"
+        android:title="@string/play_this_next"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/music_in_album_activity"
+        android:title="@string/music_in_album_activity"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/music_in_artist_activity"
+        android:title="@string/music_in_artist_activity"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/edit_music_info"
+        android:title="@string/edit_music_info"
+        app:showAsAction="never"/>
+   <!-- <item
+        android:id="@+id/delete"
+        android:title="@string/delete"
+        app:showAsAction="never"/>-->
+</menu>

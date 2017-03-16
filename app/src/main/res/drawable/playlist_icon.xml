@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#a9afaf">
+    <item>
+        <shape android:shape="oval">
+            <size android:width="36dp" android:height="36dp"/>
+            <solid android:color="#757676" />
+        </shape>
+    </item>
+    <item
+        android:gravity="center"
+        android:width="25dp"
+        android:height="25dp"
+        android:drawable="@drawable/playlist_icon_image" />
+</ripple>

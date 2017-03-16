@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/playlist_item"
+    android:layout_width="match_parent"
+    android:background="?android:attr/selectableItemBackground"
+    android:layout_height="60dp">
+
+
+       <com.makeramen.roundedimageview.RoundedImageView
+           android:id="@+id/play_list_image"
+           android:layout_width="36dp"
+           android:layout_height="36dp"
+           android:scaleType="centerCrop"
+           android:src="@drawable/play_page_default_cover"
+           android:layout_alignParentStart="true"
+           android:layout_centerVertical="true"
+           app:riv_oval="true"
+           android:layout_marginLeft="15dp"
+           android:layout_marginRight="15dp"/>
+
+
+       <LinearLayout
+           android:layout_toLeftOf="@+id/popup_menu"
+           android:layout_toRightOf="@id/play_list_image"
+           android:layout_width="match_parent"
+           android:orientation="vertical"
+           android:layout_height="match_parent"
+           android:gravity="center_vertical">
+
+           <TextView
+               android:id="@+id/playlist_item_textView"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/test"
+               android:singleLine="true"
+               android:textColor="@color/textView"
+               android:textSize="15dp" />
+
+           <TextView
+               android:layout_marginTop="2dp"
+               android:id="@+id/playlist_item_textViewSmall"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/test"
+               android:singleLine="true"
+               android:textColor="@color/textView_small"
+               android:textSize="11dp" />
+       </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/popup_menu"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:src="@drawable/popup_menu_ripple" />
+
+   </RelativeLayout>

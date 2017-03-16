@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1976D2</color>
+    <color name="colorPrimaryDark">#0a64bc</color>
+    <color name="colorAccent">#e91e64</color>
+    <color name="colorWhile">#ffffff</color>
+    <color name="colorWhileLight">#99ffffff</color>
+    <color name="tabTextColor">#caffffff</color>
+    <color name="textView">#ef211d1d</color>
+    <color name="transparent">#00000000</color>
+    <color name="seekBar">#58606644</color>
+    <color name="seekBar_empty">#24664433</color>
+    <color name="colorBlack">#444040</color>
+    <color name="textView_light">#99ffffff</color>
+    <color name="textView_small">#757575</color>
+    <color name="gray">#767b7b</color>
+    <color name="scrollBar_track">#88d6d9d9</color>
+    <color name="testColor">#000000</color>
+
+
+
+</resources>
